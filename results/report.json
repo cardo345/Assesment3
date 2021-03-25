@@ -1,0 +1,108 @@
+{
+  "aggregate": {
+    "timestamp": "2021-03-25T00:11:06.494Z",
+    "scenariosCreated": 3,
+    "scenariosCompleted": 3,
+    "requestsCompleted": 21,
+    "latency": {
+      "min": 186.4,
+      "max": 858.7,
+      "median": 404.6,
+      "p95": 799,
+      "p99": 858.7
+    },
+    "rps": {
+      "count": 21,
+      "mean": 3.79
+    },
+    "scenarioDuration": {
+      "min": 3174.5,
+      "max": 3329.1,
+      "median": 3211.1,
+      "p95": 3329.1,
+      "p99": 3329.1
+    },
+    "scenarioCounts": {
+      "0": 3
+    },
+    "errors": {},
+    "codes": {
+      "200": 9,
+      "204": 12
+    },
+    "matches": 0,
+    "customStats": {},
+    "counters": {},
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "duration": 3,
+        "arrivalRate": 1,
+        "name": "Phase 1"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2021-03-25T00:11:06.479Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 3,
+      "requestsCompleted": 21,
+      "latency": {
+        "min": 186.4,
+        "max": 858.7,
+        "median": 404.6,
+        "p95": 799,
+        "p99": 858.7
+      },
+      "rps": {
+        "count": 21,
+        "mean": 3.8
+      },
+      "scenarioDuration": {
+        "min": 3174.5,
+        "max": 3329.1,
+        "median": 3211.1,
+        "p95": 3329.1,
+        "p99": 3329.1
+      },
+      "scenarioCounts": {
+        "0": 3
+      },
+      "errors": {},
+      "codes": {
+        "200": 9,
+        "204": 12
+      },
+      "matches": 0,
+      "latencies": [
+        356980900,
+        407005900,
+        250950600,
+        246749700,
+        325267500,
+        334783400,
+        227914600,
+        690817600,
+        263618900,
+        464289000,
+        374161200,
+        542846900,
+        186426800,
+        604981400,
+        633947900,
+        738593100,
+        858685100,
+        398155600,
+        404601300,
+        750093400,
+        460277100
+      ],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    }
+  ]
+}
